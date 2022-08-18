@@ -1,24 +1,25 @@
 {
-	"name": "new-react-transform",
-	"version": "1.0.0",
-	"description": "New React Transform",
-	"main": "src/index.js",
-	"scripts": {
-		"dev": "webpack serve --mode=development",
-		"build": "webpack --mode=production"
-	},
-	"dependencies": {
-		"react": "17.0.2",
-		"react-dom": "17.0.2"
-	},
-	"devDependencies": {
-		"@babel/core": "7.18.10",
-		"@babel/preset-env": "7.18.10",
-		"@babel/preset-react": "7.18.6",
-		"babel-loader": "8.2.5",
-		"html-webpack-plugin": "5.5.0",
-		"webpack": "5.74.0",
-		"webpack-cli": "4.10.0",
-		"webpack-dev-server": "4.10.0"
-	}
+  "name": "new-react-transform",
+  "version": "1.0.0",
+  "description": "New React Transform",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "webpack serve --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "dependencies": {
+    "core-js": "3.24.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.18.10",
+    "@babel/preset-env": "7.18.10",
+    "@babel/preset-react": "7.18.6",
+    "babel-loader": "8.2.5",
+    "html-webpack-plugin": "5.5.0",
+    "webpack": "5.74.0",
+    "webpack-cli": "4.10.0",
+    "webpack-dev-server": "4.10.0"
+  }
 }
