@@ -1,9 +1,11 @@
-import HelloWorld from "./HelloWorld.jsx";
+import React from 'react';
+
+import HelloWorld from './HelloWorld.jsx';
 
 const App = () => (
-	<div>
-		<HelloWorld />
-	</div>
+  <div>
+    <HelloWorld />
+  </div>
 );
 
 export default App;
