@@ -3,7 +3,10 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   target: ['web', 'es5'],
-  entry: path.join(__dirname, 'src', 'index.js'),
+  entry: [
+    path.join(__dirname, 'src', 'polyfill.js'),
+    path.join(__dirname, 'src', 'index.js'),
+  ],
   output: {
     path: path.resolve(__dirname, 'dist'),
   },
